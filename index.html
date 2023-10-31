@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/6da6a1c8a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello!<br>My name is <span>Dipti</span></h1>
+                <span>I am a </span> <span class="multiple-text"></span>
+
+            </div>
+        </div>
+    </div>
+   <!------------------------------------------------ABOUT------------------------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="subtitle">About me</h1>
+                    <p>My name is Dipti and I belong to Mumbai. Currently, I am a second year student pursuing computer engineering from Thakur college of engineering and technology (TCET).A passionate and aspiring individual with a good background in Java and web development.I have Passion for creating innovative and user-friendly digital experiences.My hobbies included Book Reading,listening music & Travelling alone </p><br>
+                    <p>Feel free to reach out, and let's embark on a journey through the world of technology together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links  active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Front-end Designs </li>
+                            <li><span>JavaScript</span><br>Created Chrome Extension </li>
+                            <li><span>Time Management</span><br> I possess a strong ability to prioritize tasks and deadlines effectively. I consistently meet or exceed time-sensitive goals, ensuring optimal productivity. </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Cloud Computer Internship</span><br> Completed a internship at TCET and gains hand on experiences of Virtual Machine</li>
+                            <li><span>Internship</span><br>Completed 1 Internship at Prodigy InfoTech</li>
+                            <li><span>Projects</span><br>Worked on various real-world projects.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2008-2020</span><br>Mother Teresa English School</li>
+                            <li><span>2020-2022</span><br>Kapol College</li>
+                            <li><span>2023-2026</span><br>Thakur College of Engineering and Technology</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <img src="profile.jpeg" alt="img" class="left">
+                </div>
+
+            </div>
+        </div>
+    </div>
+   
+       <!-----------------------------------------------SERVICES------------------------------------------------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+<div class="services-list">
+    <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>I am good at creating frontend designs. I have worked on multiple projects and had designed some cool stuff. I like solving real life problems with the help of my coding knowledege. </p>
+        <a href="#">Learn more</a>
+    </div>
+    <div>
+        <i class="fa-brands fa-java"></i></i> <h2>Java Developer</h2>
+        <p>I'm a Java developer. I create software using the Java programming language. I build applications and systems with Java..</p>
+        <a href="#">Learn more</a>
+    </div>
+    <div>
+        <i class="fa-solid fa-video"></i>
+        <h2>Video Editing</h2>
+        <p> I offer professional video editing services, transforming raw footage into captivating, polished videos and others features. </p>
+        <a href="#">Learn more</a>
+    </div>
+</div>
+    </div>
+</div>
+       <!-----------------------------------------------PORTFOLIO------------------------------------------------------------------>
+
+
+       <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My work</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="p1.jpeg" alt="">
+        <div class="layer">
+            <h3>BurgerKing</h3>
+            <p>A modern landing website By combining HTML and CSS effectively, i created an engaging and visually appealing Burger King website that showcases restaurant's menu, services, and branding. </p>
+            <a href="https://github.com/Diptigit11/BurgerKing" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="p2.jpeg" alt="">
+        <div class="layer">
+            <h3>BlackJack Game</h3>
+            <p>It was a JavaScript oriented project. Html and css was also a key element of this same. Welcome to our exciting online Blackjack game! It's a fun card game where you try to get as close to 21 points as possible without going over. Challenge yourself and test your luck.  </p>
+            <a href="https://github.com/Diptigit11/BlackJack_Game" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="p3.jpeg" alt="">
+        <div class="layer">
+            <h3>Tic Tac Toe Web Application</h3>
+            <p>The Tic Tac Toe game is a simple web-based two-player game built using HTML, CSS, and JavaScript. It features a 3x3 grid where two players take turns to place their symbols, 'X' and 'O,' on empty tiles. .</p>
+            <a href="https://github.com/Diptigit11/TicTacToeGame" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn btn3"  > See more</a>
+        </div>
+       </div>
+       <!-----------------------------------------------  CONTACT ------------------------------------------------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle"> Contact Me</h1>
+<p><i class="fa-solid fa-envelope"></i>singh236dipti@gmail.com</p>
+<p><i class="fa-solid fa-phone"></i>8237717767</p>
+<div class="social-icons">
+    <a href="www.linkedin.com/in/dipti-singh-3a7561263" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/Diptigit11" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
+<a href="Resume.pdf" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Nmae" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class=" btn  btn2">Submit</button>
+                </form>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="copywrite">
+        <p>Content Copywrite |    | Privacy |     | Terms and Conditions</p>    <p> Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
